@@ -1,0 +1,104 @@
+BODY {
+	BACKGROUND-COLOR: #f5fbfd
+}
+BODY {
+	FONT-SIZE: 9pt; COLOR: #444
+}
+P {
+	FONT-SIZE: 9pt; COLOR: #444
+}
+TD {
+	FONT-SIZE: 9pt; COLOR: #444
+}
+INPUT {
+	FONT-SIZE: 9pt; COLOR: #444
+}
+SELECT {
+	FONT-SIZE: 9pt; COLOR: #444
+}
+TEXTAREA {
+	FONT-SIZE: 9pt; COLOR: #444
+}
+A:link {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; COLOR: #003399; PADDING-TOP: 0px; TEXT-DECORATION: none
+}
+A:active {
+	FONT-SIZE: 9pt; COLOR: #ff0000; TEXT-DECORATION: none
+}
+A:visited {
+	COLOR: #003399; TEXT-DECORATION: none
+}
+A:hover {
+	FONT-SIZE: 9pt; COLOR: #ff0000; TEXT-DECORATION: underline
+}
+A.toolbar:link {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; COLOR: #ffffff; PADDING-TOP: 0px; TEXT-DECORATION: none
+}
+A.toolbar:active {
+	FONT-SIZE: 9pt; COLOR: #ff0000; TEXT-DECORATION: none
+}
+A.toolbar:visited {
+	COLOR: #ffffff; TEXT-DECORATION: none
+}
+A.toolbar:hover {
+	FONT-SIZE: 9pt; COLOR: #ff0000; TEXT-DECORATION: underline
+}
+.inputnormal {
+	BORDER-RIGHT: #c0c0c0 1px solid; BORDER-TOP: #c0c0c0 1px solid; BORDER-LEFT: #c0c0c0 1px solid; BORDER-BOTTOM: #c0c0c0 1px solid; BACKGROUND-COLOR: #f1f1f1; TEXT-ALIGN: center
+}
+.inputedit {
+	BORDER-RIGHT: #6699cc 1px solid; BORDER-TOP: #6699cc 1px solid; BORDER-LEFT: #6699cc 1px solid; BORDER-BOTTOM: #6699cc 1px solid; BACKGROUND-COLOR: #cddeed
+}
+.areanormal {
+	BORDER-RIGHT: 0px solid; BORDER-TOP: 0px solid; BORDER-LEFT: 0px solid; BORDER-BOTTOM: 0px solid; BACKGROUND-COLOR: #ffffff
+}
+body{
+	margin:0px;
+	color:#666;
+	background-color:#FFF;
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:12px;
+	SCROLLBAR-FACE-COLOR: #ecf3fb; SCROLLBAR-HIGHLIGHT-COLOR: #fff; SCROLLBAR-SHADOW-COLOR: #ecf3fb; SCROLLBAR-3DLIGHT-COLOR: #99ccff; SCROLLBAR-ARROW-COLOR: #15457d; SCROLLBAR-TRACK-COLOR: #ffffff; SCROLLBAR-DARKSHADOW-COLOR: #99ccff
+}
+.s01 {
+	BORDER-RIGHT: 1px inset; BORDER-TOP: 1px inset; FONT-SIZE: 12px; BORDER-LEFT: 1px inset; BORDER-BOTTOM: 1px inset; HEIGHT: 14pt
+}
+.s02 {
+	BORDER-RIGHT: 1px ridge; BORDER-TOP: #ffffff 1px ridge; FONT-SIZE: 12px; BORDER-LEFT: #ffffff 1px ridge; PADDING-TOP: 2px; BORDER-BOTTOM: 1px ridge; HEIGHT: 16pt; BACKGROUND-COLOR: #d4d0c8
+}
+#sel {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; FONT-SIZE: 22px; PADDING-BOTTOM: 0px; MARGIN: 15px 0px 0px; WIDTH: 100%; COLOR: #0066ff; PADDING-TOP: 0px; LETTER-SPACING: 1px; TEXT-ALIGN: left
+}
+#sel TABLE {
+	BORDER-RIGHT: #84badf 1px solid; BORDER-TOP: #84badf 1px solid; BORDER-LEFT: #84badf 1px solid; BORDER-BOTTOM: #84badf 1px solid
+}
+#sel TH {
+	BORDER-RIGHT: #d9e9ff 1px solid; BORDER-TOP: #d9e9ff 1px solid; FONT-WEIGHT: bold; FONT-SIZE: 12px; BACKGROUND-IMAGE: url(Images/list_bg.jpg); BORDER-LEFT: #d9e9ff 1px solid; COLOR: #1d4e98; LINE-HEIGHT: 23px; BORDER-BOTTOM: #d9e9ff 1px solid; BACKGROUND-COLOR: #cbdce5
+}
+#sel TD {
+	BORDER-RIGHT: #d9e9ff 1px solid; BORDER-TOP: #d9e9ff 1px solid; BORDER-LEFT: #d9e9ff 1px solid; BORDER-BOTTOM: #d9e9ff 1px solid; TEXT-ALIGN: left
+}
+#tbl TABLE {
+	BORDER-RIGHT: #d9e9ff 1px solid; TABLE-LAYOUT: fixed; BORDER-TOP: #d9e9ff 1px solid; FONT-SIZE: 12px; BORDER-LEFT: #d9e9ff 1px solid; BORDER-BOTTOM: #d9e9ff 1px solid; BORDER-COLLAPSE: collapse; TEXT-ALIGN: left
+}
+#tbl TH {
+	BORDER-RIGHT: #d9e9ff 1px solid; BORDER-TOP: #d9e9ff 1px solid; FONT-WEIGHT: bold; FONT-SIZE: 12px; BACKGROUND-IMAGE: url(Images/list_bg.jpg); BORDER-LEFT: #d9e9ff 1px solid; COLOR: #000; BORDER-BOTTOM: #d9e9ff 1px solid; HEIGHT: 28px; BACKGROUND-COLOR: #cbdce5
+}
+#tbl TD {
+	BORDER-RIGHT: #d9e9ff 1px solid; BORDER-TOP: #d9e9ff 1px solid; FONT-SIZE: 12px; BORDER-LEFT: #d9e9ff 1px solid; BORDER-BOTTOM: #d9e9ff 1px solid; HEIGHT: 35px
+}
+H2 {
+	MARGIN-TOP: 10px; FONT-SIZE: 18px; MARGIN-BOTTOM: 5px; COLOR: #0039b0; FONT-FAMILY: "¿¬Ìå_GB2312"; TEXT-ALIGN: center
+}
+#t1 TABLE {
+	BORDER-RIGHT: #cae0ff 1px solid; TABLE-LAYOUT: fixed; BORDER-TOP: #cae0ff 1px solid; FONT-SIZE: 12px; BORDER-LEFT: #cae0ff 1px solid; BORDER-BOTTOM: #cae0ff 1px solid; BORDER-COLLAPSE: collapse; TEXT-ALIGN: left
+}
+#t1 TH {
+	BORDER-RIGHT: #cae0ff 1px solid; BORDER-TOP: #cae0ff 1px solid; FONT-WEIGHT: bold; FONT-SIZE: 12px; BACKGROUND-IMAGE: url(Images/list_bg.jpg); BORDER-LEFT: #cae0ff 1px solid; COLOR: #000; BORDER-BOTTOM: #cae0ff 1px solid; HEIGHT: 28px; BACKGROUND-COLOR: #cbdce5
+}
+#t1 TD {
+	BORDER-RIGHT: #cae0ff 1px solid; BORDER-TOP: #cae0ff 1px solid; FONT-SIZE: 12px; BORDER-LEFT: #cae0ff 1px solid; BORDER-BOTTOM: #cae0ff 1px solid; HEIGHT: 35px
+}
+.button {
+	BORDER-RIGHT: #80bee3 1px solid; BORDER-TOP: #80bee3 1px solid; BACKGROUND-IMAGE: url(images/botton_bg.gif); BORDER-LEFT: #80bee3 1px solid; PADDING-TOP: 2px; BORDER-BOTTOM: #80bee3 1px solid; BACKGROUND-REPEAT: repeat
+}

@@ -1,0 +1,84 @@
+@charset "utf-8";
+/* CSS Document */
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, code, form, fieldset, legend, input, textarea, p, blockquote, th, td, hr, button, article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section { margin: 0; padding: 0; }
+ol, ul { list-style: none; }
+a { text-decoration: none; }
+a:hover { text-decoration: underline; }
+
+/* 来自yahoo, 让标题都自定义, 适应多个系统应用 */
+h1,h2,h3,h4,h5,h6 {
+
+}
+
+input,textarea{font-family: "微软雅黑", Arial, Helvetica, sans-serif;}
+
+input:-moz-placeholder { color: #999; }
+::-webkit-input-placeholder { color:#999; }
+
+label{ cursor:default;}
+input{ vertical-align:middle;}
+input,button,select,textarea{outline:none}
+textarea{ resize:none;}
+
+.fl{ float:left !important;}
+.fr{ float:right !important;}
+
+.clearfloat{ clear:both; height:0; line-height:0; overflow:hidden; font-size:0;}
+
+img { max-width: 100%; }
+
+
+/*-----------------------------------*/
+body{ font:12px/20px "微软雅黑",Arial, Helvetica, sans-serif; background-color:#f5f6f5;}
+.header_wrapper{ background:url(../qtimages/bg_haeder.png) repeat-x left top; height:133px;}
+.wrapper{ width:1000px; margin:0 auto;}
+.header{height:133px; background:url(../qtimages/bg_haeder2.png) no-repeat right top;}
+.logo{ float:left; margin-left:63px; margin-top:19px;}
+.header .title{ float:left; margin-left:29px; margin-top:43px; width:331px; height:61px;}
+.tel{ float:right; margin-left:45px;margin-top:55px; padding-left:50px; background:url(../qtimages/icon_tel.png) no-repeat left top; font-size:22px; font-family:Arial, Helvetica, sans-serif; color:#5c841a;}
+
+.menu_wrapper{ height:38px; background-color:#505050; margin-bottom:2px;}
+#menu{ float:left; width:680px;}
+#menu li{ float:left;line-height:38px; height:38px; width:85px; text-align:center;}
+#menu li a{ display:block; font-size:16px; color:#fff; }
+#menu li.cureent{ background:url(../qtimages/bg_menu_current.png) repeat-x left top;}
+#menu li a:hover{ text-decoration:none; }
+.search{ float:right;width:210px; margin-right:27px; margin-top:6px;}
+.search form {background: url(../qtimages/bg_search.png) no-repeat right top; width:210px; height:27px;}
+.search input {background: none repeat 0 0 ;border: medium none;vertical-align: top;}
+.search #keyword {border: medium none;color: #000;cursor: text;font-size: 12px;height:27px;line-height:27px;padding:0 3px;vertical-align: middle;width:166px; float:left;}
+.search #submit {cursor: pointer;height: 27px;vertical-align: middle;width:38px; float:right;}
+
+.content{ margin-bottom:40px;}
+.main_content{ width:786px; float:right;margin-bottom:40px; margin-top:30px;}
+.sidebar{ width:260px; float:left;}
+.sidebar h2{ font-size:18px; color:#000; border-bottom:4px solid #8c6234; padding-bottom:13px; margin-bottom:24px; padding-left:10px;}
+.sidebar ul li{ line-height:56px; height:56px;}
+.sidebar ul li a{ padding-left:20px; font-size:16px;color:#000;}
+.sidebar ul li.current{ background-color:#fbefbb;}
+
+.sidebar .box{ background-color:#555555; padding:11px 13px 0 13px; margin-bottom:21px;}
+.content_top img,.sub_banner img{ width:100%;}
+/*********sidebar product***********/
+.sidebar .product{ padding-bottom:5px;}
+.sidebar .product ul{ margin-left:8px; width:220px;}
+.sidebar .product ul li{ float:left; width:100px; height:100px; margin-right:10px; margin-bottom:10px;}
+.sidebar .product ul li a{ display:block;}
+.sidebar .product ul li:hover a{ text-decoration:none;}
+/************footer************/
+.footer_wrapper{ background-color:#1a1a1a; height:188px; padding-top:20px;}
+.footer_manu_con{margin-left:16px; float:left; width:720px;}
+.footer_manu_con p{font-size:12px; color:#ffffff;}
+.footer_manu{ margin-bottom:15px;}
+.footer_manu dl{float:left;width:277px; margin-right:80px;}
+.footer_manu dl dt{ border-bottom:1px solid #767676; font-size:16px; color:#dcae59; margin-bottom:10px; padding-bottom:20px; font-weight:bold;}
+.footer_manu dl dd{ line-height:20px; font-size:12px; color:#ffffff;}
+.footer_manu dl dd a{ font-size:12px; color:#ffffff; margin-right:15px;}
+.footer_code{ float:left; width:95px; text-align:center;}
+.footer_code dl dd{ margin-bottom:10px;font-size:12px; color:#ffffff;}
+
+
+
+
+
+

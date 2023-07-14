@@ -1,0 +1,20 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="zpwz:war exploded">
+    <output-path>$PROJECT_DIR$/classes/artifacts/zpwz_war_exploded</output-path>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="zpwz" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="module" name="jspsmartupload.jar" module-name="zpwz" />
+          <element id="library" level="module" name="msbase.jar" module-name="zpwz" />
+          <element id="library" level="module" name="mssqlserver.jar" module-name="zpwz" />
+          <element id="library" level="module" name="msutil.jar" module-name="zpwz" />
+          <element id="library" level="module" name="sqljdbc.jar" module-name="zpwz" />
+        </element>
+      </element>
+      <element id="javaee-facet-resources" facet="zpwz/web/Web" />
+    </root>
+  </artifact>
+</component>

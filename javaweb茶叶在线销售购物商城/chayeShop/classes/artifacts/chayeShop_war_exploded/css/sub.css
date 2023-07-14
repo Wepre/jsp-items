@@ -1,0 +1,95 @@
+@charset "utf-8";
+/* CSS Document */
+
+.medical_con{ padding-top:56px;}
+.medical_box{ margin-bottom:40px;}
+.medical_box img{ float:left; width:300px;}
+.medical_box .show{ float:right; width:656px;}
+.medical_box .show h2{ width:244px; height:39px; line-height:39px; text-align:center; font-size:20px; color:#ffffff; background:url(../qtimages/medical_title.png) no-repeat left top; margin-bottom:25px;}
+.medical_box .show p{line-height:26px; font-size:14px; color:#000000;}
+
+
+.about_con{ padding-top:56px; margin-bottom:40px;}
+.about_con .about_logo{ float:left; width:508px; margin-top:20px;}
+.about_con .show{ float:right; width:492px;}
+.about_con .show h2{ text-align:center; margin-bottom:20px; font-size:20px; color:#000; font-weight:normal; }
+.about_con .show p{ line-height:28px; font-size:16px;text-indent:2em;color:#000;}
+
+.news_con{ padding-top:32px; margin-bottom:40px;} 
+.news_con .banner{ margin-bottom:40px;}
+.news_list_con h2{ font-size:18px; color:#2f7a0a; border-bottom:1px solid #dedede; padding-bottom:7px; margin-bottom:17px;}
+.news_list_con h2 b{ color:#000000; font-weight: normal;}
+.news_list_con .news_list{ float:left; width:644px; }
+.news_list_con .news_list ul{margin-bottom:36px;}
+.news_list_con .news_list ul li{ line-height:35px; border-bottom:1px solid #dedede;}
+.news_list_con .news_list ul li span{ float:right; font-size:14px; color:#000000;}
+.news_list_con .news_list ul li a{ font-size:14px;color:#000000; padding-left:20px; background:url(../qtimages/bg_news.png) no-repeat left center; }
+
+.news_better{ float:right; width:315px;}
+.news_better ul li{line-height:35px;}
+.news_better ul li a{font-size:14px;color:#000000; }
+
+.page{clear: both;height: 27px;text-align: center;}
+.page span, .page a {color: #000000;display: inline-block;font-size: 14px;height: 21px;line-height: 21px;margin: 0 2px;text-align: center;vertical-align: top; width:21px;}
+.page a:hover, .page a.current { background:url(../qtimages/bg_page.png) no-repeat left top;color: #fff; text-decoration: none;}
+.page a.btn{ color:#000; width:44px;}
+.page a.btn:hover{ background:none;}
+
+.news_final h3{ color:#000; font-weight:normal; font-size:18px; text-align:center; margin-bottom:10px;}
+.news_final h4{text-align:center;font-weight:normal;font-size:12px;  color:#000; margin-bottom:15px;}
+.news_editor p{ font-size:14px; color:#000000; line-height:22px; text-indent:2em;}
+
+.healthy_con{ padding-top:32px; margin-bottom:40px;}
+.healthy_con .banner{ margin-bottom:40px;}
+.healthy_con .box{ margin-bottom:50px;}
+.healthy_con .box h2{ color:#357b06; font-size:20px; font-weight:normal; margin-bottom:17px;}
+.healthy_con .box_con .img{ width:222px; float:left;}
+.healthy_con .box_con .img img{ margin-left:15px;}
+.healthy_con .box_con .show{ width:660px; float:right; padding:25px 30px; background-color:#fff;}
+.healthy_con .box_con .show p{ font-size:14px; line-height:28px;}
+
+.personal_con{ padding-top:56px; margin-bottom:40px;}
+.personal_box{ margin-bottom:40px;}
+.personal_box h2{ color:#fff; font-size:20px; font-weight:normal; line-height:36px; margin-bottom:20px;}
+.personal_box .show{ width:500px; }
+.personal_box .img{ width:500px; text-align:center;}
+
+.personal_box .show p{ font-size:16px; color:#000; line-height:28px; }
+.left h2{ background:url(../qtimages/bg_h2.png) no-repeat left top; padding-left:10px;}
+.left .img{ float:right;}
+.left .show{ float:left;}
+.right h2{ background:url(../qtimages/bg_h2_2.png) no-repeat right top; padding-left:10px; text-align:right; padding-right:10px;}
+.right .img{ float:left;}
+.right .show{ float:right;}
+
+.gufa_con{ padding-top:56px; margin-bottom:40px;}
+.gufa_logo{ float:left; width:400px;}
+.gufa_logo img{ margin-left:73px; margin-top:43px;}
+.gufa_show{ width:505px; float:right;}
+.gufa_show .box{ margin-bottom:30px;}
+.gufa_show .box .img{ text-align:center; margin-bottom:20px;}
+.gufa_show .box h2{ font-size:18px; font-weight:normal;text-align:center; margin-bottom:15px;}
+.gufa_show .box p{font-size:14px; color:#000; line-height:28px;}
+
+.product_con{ padding-top:38px;}
+.product_sidebar{ float:left; width:187px;}
+.product_sidebar h2{ width:100%; background-color:#41841c; font-size:20px; color:#fff; text-align:center; font-weight:normal; height:32px; line-height:32px; margin-bottom:12px;} 
+.product_sidebar p{ line-height:28px; font-size:14px;}
+.product_show{ float:right; width:764px; margin-right:10px;}
+.product_show dl{ width:240px; float:left; margin-right:12px; margin-bottom:15px; }
+.product_show dl dt{ width:238px; border:1px solid #eeeeee; height:238px; margin-bottom:5px; text-align:center; }
+.product_show dl dt img{max-height: 238px; max-width:238px; vertical-align: middle;}
+.product_show dl dt span{display: inline-block; height: 100%;vertical-align: middle;}
+.product_show dl dd{ text-align:center;}
+.product_show dl dd a{ color:#000; font-size:14px;}
+
+.product_final h2{color:#000; font-weight:normal; font-size:18px; text-align:center; margin-bottom:10px;}
+.product_editor p{ font-size:14px; color:#000000; line-height:18px; text-indent:2em;}
+
+.morebtn{width:65px; text-align:center; background: url(../qtimages/bg_more.png) no-repeat left center; display:block; color:#fff; font-size:12px;}
+.morebtn:hover{ text-decoration:none;}
+.crumbs{ color:#357b06;  font-size: 20px;  font-weight: normal;   margin-bottom: 17px; border-bottom:1px solid #000; padding-bottom:10px;}
+.crumbs a{ color:#000;   font-size: 20px;  font-weight: normal; }
+.final{ margin-bottom:20px;}
+.final h3{ color:#000; font-weight:normal; font-size:18px; text-align:center; margin-bottom:10px;}
+.content_editor p{ font-size:14px; color:#000000; line-height:18px; text-indent:2em;}

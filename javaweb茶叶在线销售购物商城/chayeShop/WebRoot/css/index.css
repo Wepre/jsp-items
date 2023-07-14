@@ -1,0 +1,45 @@
+@charset "utf-8";
+/* CSS Document */
+.banner{ position: relative; height:450px;overflow:hidden;margin: 0 auto;z-index: 1; margin-bottom:32px; }
+#slides{width:1600px; height:450px; position: absolute;z-index: 10;margin-bottom:29px; left:50%; margin-left:-800px; }
+#slides .slides_container{width:1600px; height:450px; position:absolute; left:0; top:0;}
+#slides .slides_container img{display: block;width:1600px; height:450px;}
+#slides .pagination{ display: none;}
+#slides .prev,#slides .next{ display: none;}
+
+.index_content{}
+.index_content  h2{ font-size:18px; color:#000; font-weight:normal; margin-bottom:22px;}
+.index_content  h2 b{ font-weight:normal; color:#878787;}
+
+.news_rideo{ margin-bottom:32px; }
+.news_rideo .news{ float:left; width:480px; margin-top:20px;}
+.news_rideo .news h2 span{ float:right;}
+.news_rideo .news h2 span a{ width:65px; text-align:center; background: url(../qtimages/bg_more.png) no-repeat; display:block; color:#fff; font-size:12px; }
+.news_rideo .news li{ padding-bottom:7px; margin-bottom:8px;background:url(../qtimages/line.png) repeat-x left bottom; line-height:18px;}
+.news_rideo .news li span{ float: right;}
+.news_rideo .news li b{ width:16px; height:16px; line-height:16px; color:#fff; font-size:14px; text-align:center; margin-right:5px; background-color:#868686; font-weight:normal; display:inline-block; vertical-align:middle;}
+.news_rideo .news li b.one{ background-color:#d23b21;}
+.news_rideo .news li b.two{background-color:#d2ca21;}
+.news_rideo .news li b.three{background-color:#85d637;}
+.news_rideo .news li a{ font-size:15px; color:#000;}
+
+.news_rideo .rideo{ width:425px; height:260px; float:right;}
+
+.sub_index_show{ margin-bottom:32px;}
+.sub_index_show dl{ float:left; width:324px; margin-right:14px;}
+.sub_index_show dl.last{ margin-right:0;}
+.sub_index_show dl dt{width:324px; height:221px; margin-bottom:10px;}
+.sub_index_show dl dd{ text-align:center; font-size:16px; color:#000;}
+
+.medical{ margin-bottom:32px;}
+.medical_con dl{ float:left; width:232px; margin-right:24px;}
+.medical_con dl.last{ margin-right:0;}
+.medical_con dl dt{ width:232px; height:279px; margin-bottom:10px; text-align:center; display:block;} 
+.medical_con dl dd{ text-align:center; font-size:16px; color:#000; text-align:center;}
+.medical_con dl dd a{font-size:16px; color:#000;}
+
+.gufa{ margin-bottom:32px;}
+.gufa_con li{ float:left; margin:0 19px; width:294px; position:relative;}
+.gufa_con li a{ display:block;}
+.gufa_con li p{ position:absolute; left:1px; top:0; width:177px; height:102px; background:url(../qtimages/bg_gafu_text.png) no-repeat left top; z-index:100; text-align:center; padding:83px 52px; color:#fff; font-size:16px; display:none;}
+.gufa_con li:hover p{ display:block;}

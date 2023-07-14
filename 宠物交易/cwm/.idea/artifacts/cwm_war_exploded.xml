@@ -1,0 +1,29 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="cwm:war exploded">
+    <output-path>$PROJECT_DIR$/classes/artifacts/cwm_war_exploded</output-path>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="cwm" />
+        </element>
+      </element>
+      <element id="library" level="module" name="commons-fileupload-1.2.1.jar" module-name="cwm" />
+      <element id="library" level="module" name="commons-io-1.3.2.jar" module-name="cwm" />
+      <element id="library" level="module" name="dwr.jar" module-name="cwm" />
+      <element id="library" level="module" name="FCKeditor-2.3.jar" module-name="cwm" />
+      <element id="library" level="module" name="fckeditor-java-core-2.4.1.jar" module-name="cwm" />
+      <element id="library" level="module" name="javaee.jar" module-name="cwm" />
+      <element id="library" level="module" name="jspsmartupload.jar" module-name="cwm" />
+      <element id="library" level="module" name="jstl-1.2.jar" module-name="cwm" />
+      <element id="library" level="module" name="jtds-1.2.jar" module-name="cwm" />
+      <element id="library" level="module" name="msbase.jar" module-name="cwm" />
+      <element id="library" level="module" name="mssqlserver.jar" module-name="cwm" />
+      <element id="library" level="module" name="msutil.jar" module-name="cwm" />
+      <element id="library" level="module" name="mysql-connector-java-5.0.4-bin.jar" module-name="cwm" />
+      <element id="library" level="module" name="slf4j-api-1.5.2.jar" module-name="cwm" />
+      <element id="library" level="module" name="slf4j-simple-1.5.2.jar" module-name="cwm" />
+      <element id="library" level="module" name="sqljdbc.jar" module-name="cwm" />
+      <element id="javaee-facet-resources" facet="cwm/web/Web" />
+    </root>
+  </artifact>
+</component>

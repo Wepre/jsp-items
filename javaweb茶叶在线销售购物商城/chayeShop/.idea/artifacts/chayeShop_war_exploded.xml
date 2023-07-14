@@ -1,0 +1,27 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="chayeShop:war exploded">
+    <output-path>$PROJECT_DIR$/classes/artifacts/chayeShop_war_exploded</output-path>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="chayeShop" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="module" name="commons-fileupload-1.2.1.jar" module-name="chayeShop" />
+          <element id="library" level="module" name="commons-io-1.3.2.jar" module-name="chayeShop" />
+          <element id="library" level="module" name="json_simple-1.1.jar" module-name="chayeShop" />
+          <element id="library" level="module" name="jspsmartupload.jar" module-name="chayeShop" />
+          <element id="library" level="module" name="jxl.jar" module-name="chayeShop" />
+          <element id="library" level="module" name="msbase.jar" module-name="chayeShop" />
+          <element id="library" level="module" name="mssqlserver.jar" module-name="chayeShop" />
+          <element id="library" level="module" name="msutil.jar" module-name="chayeShop" />
+          <element id="library" level="module" name="mysql-connector-java-5.0.4-bin.jar" module-name="chayeShop" />
+          <element id="library" level="module" name="sqljdbc.jar" module-name="chayeShop" />
+          <element id="library" level="module" name="sqljdbc4.jar" module-name="chayeShop" />
+          <element id="library" level="module" name="zxing-1.6-core.jar" module-name="chayeShop" />
+        </element>
+      </element>
+      <element id="javaee-facet-resources" facet="chayeShop/web/Web" />
+    </root>
+  </artifact>
+</component>
